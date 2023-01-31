@@ -18,12 +18,6 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".ThermostatActivity"
-            android:exported="false" />
-        <activity
-            android:name=".KitchenActivity"
-            android:exported="false" />
-        <activity
             android:name=".ProfileActivity"
             android:exported="false" />
         <activity
