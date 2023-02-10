@@ -10,7 +10,7 @@
         android:id="@+id/imageView9"
         android:layout_width="466dp"
         android:layout_height="285dp"
-        android:layout_marginBottom="588dp"
+        android:layout_marginBottom="488dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.509"
@@ -21,7 +21,7 @@
         android:id="@+id/textView24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="60dp"
         android:text="Main lights"
         android:textColor="#000000"
         android:textSize="20sp"
@@ -41,19 +41,6 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textView24"
         app:layout_constraintTop_toBottomOf="@+id/textView24" />
-
-    <Button
-        android:id="@+id/imageButton8"
-        android:layout_width="60dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="50dp"
-        android:backgroundTint="@color/mycolor"
-        android:drawableLeft="@drawable/vcl"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.864"
-
-        app:layout_constraintStart_toEndOf="@+id/textView24"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView26"
@@ -208,7 +195,7 @@
         android:id="@+id/textView38"
         android:layout_width="360dp"
         android:layout_height="15dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="50dp"
         android:background="@drawable/back"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -255,6 +242,17 @@
         app:layout_constraintEnd_toEndOf="@+id/textView31"
         app:layout_constraintStart_toStartOf="@+id/textView31"
         app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="#6053A4"
+        android:src="@drawable/vcl"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
